@@ -3,5 +3,9 @@ function changetext (){
 
 }
 
+let btn = document.getElementById("btn");
+btn.addEventListener("click", changetext);
 
-changetext()
+
+
+
